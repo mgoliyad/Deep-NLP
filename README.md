@@ -1,7 +1,7 @@
 # Deep-NLP
 Sentiment analyze with SpaCY
 
-Here is neural network using Keras for sentiment analyze for Kaggle challenge 
+This is code example for RNN using Keras for sentiment analyze for Kaggle challenge 
 
 https://www.kaggle.com/samdeeplearning/deepnlp
 
