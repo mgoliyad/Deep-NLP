@@ -9,6 +9,6 @@ I have used 80% data for testing and 20% for validation.
 The model reached 100% accuracy on training data for both datasets. Validation accuracy is 84% for dataset of resumes (Sheet2.cvs) and 94% for responses to a chatbot (Sheet1.csv).
 
  
-
+![Model accuracy for testing data of Chatbot responses](/Users/masha/Figure_1.png)
 
 
