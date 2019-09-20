@@ -12,6 +12,7 @@ The model reached 100% accuracy on training data for both datasets. Validation a
 ![Model accuracy for testing data of Chatbot responses](Chattbot_acc.png)
 
 
+
 ![Model accuracy for testing data of Dataset of resumes](Resume_acc.png)
 
 
