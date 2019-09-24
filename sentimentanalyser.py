@@ -82,13 +82,15 @@ def train_model(
     train_X = get_vectors(train_docs, lstm_shape["max_length"])
     val_X = get_vectors(val_docs, lstm_shape["max_length"])
     
+    callbacks = my_Callback()
+    
     estimator = model.fit(
         train_X,
         train_labels,
         validation_data=(val_X, val_labels),
         epochs=nb_epoch,
         batch_size=batch_size, 
-        callbacks=[myCallback()]
+        callbacks=[callbacks]
     )
     
     plot_series(estimator.history['acc'], estimator.history['val_acc'], title='model accuracy', legend=['train', 'valid'])
